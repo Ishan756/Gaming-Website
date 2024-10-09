@@ -1,0 +1,343 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #1a0327;
+    font-family: sans-serif, 'Poppins';
+    height: 350vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)  ), url(baclgroundimh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background: rgba(0,0,0,0.698);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 300px;
+    height: 10vh;
+    background-color: rgba(128, 0, 128, 0.932);
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    clip-path: polygon(0 0 , 100% 0, 64% 100% , 0% 100%);
+    padding: 10px;
+    line-height: 1.5rem;
+}
+.logo i{
+    font-size: 50px;
+}
+.logo p{
+    width: 130px;
+    font-size: 20px;
+    margin-left:  10px;
+}
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+ul.navbar li a{
+text-decoration: none;
+font-weight: 600;
+color: #fff;
+
+}
+ul.navbar li{
+    width: 120px;
+ 
+}
+ul.navbar li a.active{
+    color: #fec53a;
+}
+ul.navbar li a:hover:not(.active){
+    color: #fec53a;
+}
+#btn{
+    width: 250px;
+    height: 10vh;
+    background-color: #fec53a;
+    color: black;
+    outline: none;
+    border: none;
+    clip-path: polygon(35% 0 , 100% 0 , 100% 100% , 0 100%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.content{
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.content-desc h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.content-desc p{
+    line-height: 2rem;
+    width: 550px;
+    font-size: 1.3rem;
+
+}
+.content-desc span{
+    color: #fec53a;
+}
+#btn2{
+    width: 350px;
+    height: 10vh;
+    padding-left: 20px;
+    border: none;
+    background-color: #fec53a;
+    font-size: 1.2rem;
+    font-weight: bold;
+    clip-path: polygon(0 0, 100% 0, 59% 100%, 0 100%);
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 9px;
+}
+.bros{
+    height: 400px;
+    width: 400px;
+    background:linear-gradient(rgba(38,2,39,0.849), rgb(204,115,14));
+    position: relative;
+}
+.bros::after{
+    height: 400px;
+    width: 400px;
+    background: url(rakuto.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: -150px;
+    content: '';
+}
+.logo-section{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-section h1{
+    width: 250px;
+    font-size: 2rem;
+    color: #fec53a;
+    margin-left: 10px;
+}
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.767), rgba(0,0,0,0.712));
+    background-image: url(wallpapersden.com_valorant-all-characters_3840x2160.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section-1-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.section-1 h1{
+    font-weight: 450;
+    font-size: 1.5rem;
+    color: #fec53a;
+}
+.section-1-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.section-1 .img{
+    width: 100px;
+    height: 130px;
+    background-image: url(craft.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.section-1-img .img-2{
+    background-image: url(fortnite.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section-1-img .img-3{
+    background-image: url(game\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section-1-img .img-4{
+    background-image: url(game.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section-1-img .img-5{
+    background-image: url(game2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section-1-img .img-6{
+    background-image: url(jumanji.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section-1-img .img-7{
+    background-image: url(nba.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section-1-img .img-8{
+    background-image: url(spider.png);
+    background-position: center;
+    background-size: cover;
+}
+.img:hover{
+    transform: translateX(-10px);
+}
+.game-categories h1{
+    font-size: 1.5rem;
+    margin: 30px 0;
+    color: #fec53a;
+    margin-left: 225px;
+}
+.game-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.gw{
+    width: 120px;
+    height: 120px;
+    background: url(incrdible.png);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 15px 0 0 ;
+    border-radius: 10px;
+}
+.gw:hover{
+    transform: translateY(-10px);
+}
+.left{
+    position: relative;
+    right: -100px;
+}
+.gw-1{
+    background: url(Anpar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-2{
+    background: url(incrdible.png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-3{
+    background: url(battle.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-4{
+    background: url(carrace.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-5{
+    background: url(download__4_-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-6{
+    background: url(warxone.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-7{
+    background: url(vaklish.png);
+    background-size: cover;
+    background-position: center;
+}
+.gw-8{
+    background: url(wras.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-9{
+    background: url(Anpar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-0{
+    background: url(download.jpg);
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer-body{
+    width:90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    background-color: #fec53a;
+    color: #1a0327;
+    height: 12vh;
+    line-height: 1.7rem;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a .fa-brands{
+    font-size: 1.2rem;
+    color: #fec53a;
+    margin-right: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a:hover{
+    color: #fec53a;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color:#fec53a;
+    font-weight: bold;
+}
